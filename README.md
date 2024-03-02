@@ -1,6 +1,6 @@
 # Bogate-aplikacje-internetowe
 
-#tytuł aplikacji:
+tytuł aplikacji:
 link do projektu interfejsu aplikacji:
 opis aplikacji:
 szczegółowy opis techniczny aplikacji (podział na ekrany, funkcjonalności):
