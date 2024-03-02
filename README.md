@@ -1,5 +1,4 @@
 # Bogate-aplikacje-internetowe
-
 tytuł aplikacji:
 link do projektu interfejsu aplikacji:
 opis aplikacji:
