@@ -1,19 +1,22 @@
 <template>
-  <h1>Hello Vue!</h1>
-  <h2>Typy proste - ref</h2>
-  <p>Kurs: {{ courseName }}, uczestnicy: {{ courseParticipants }}</p>
-  <h2>Obiekty - reactive</h2>
-  <p>Kurs: {{  course.name }}, uczestnicy: {{ course.participants }}</p>
+  <div id="app">
+    <nav>
+      <ul>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/quiz">Quiz</router-link></li>
+      </ul>
+    </nav>
+    
+    <router-view></router-view>
+  </div>
 </template>
 
-<script setup>
-  import { ref, reactive } from 'vue'
-  const courseName = ref('Bogate aplikacje internetowe')
-  const courseParticipants = ref(20)
-  const course = reactive({
-       name: 'Programowanie kreatywne',
-       participants: 10
-  })
-  courseParticipants.value++
-  course.participants++
-</script> vue
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
+<style>
+/* Style dla menu nawigacyjnego lub innych elementów interfejsu użytkownika */
+</style>
