@@ -1,8 +1,8 @@
 # Bogate aplikacje internetowe
 
-tytuł aplikacji:
+tytuł aplikacji: Quiz App 
 
-link do projektu interfejsu aplikacji:
+link do projektu interfejsu aplikacji: 
 
 opis aplikacji:
 
