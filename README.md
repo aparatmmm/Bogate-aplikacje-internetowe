@@ -3,10 +3,48 @@
 tytuł aplikacji: Quiz App 
 
 link do projektu interfejsu aplikacji: 
+Projekt interfejsu aplikacji jest dostępny pod poniższym linkiem: 
+https://www.figma.com/file/9ZDnUkQ6Z55irzcHzttqMW/Bogate-aplikacje-internetowe?type=whiteboard&t=wrPM7kSvcHPssQVZ-6
 
 opis aplikacji:
+Quiz App to interaktywna aplikacja quiz’owa, która umożliwia użytkownikom sprawdzenie i rozwinięcie swojej wiedzy z dziedziny IT. Aplikacja składa się z trzech ekranów. Ekranu informacyjnego (ABOUT US), ekranu głównego (HOME) oraz ekranu quizu (QUIZ). Quiz app korzysta z zewnętrznego API w celu dostępu do bazy pytań. Aplikacja losuje pytania w zależności od wyboru poziomu trudności, przetwarza odpowiedzi użytkownika w założonych ramach czasowych oraz prezentuje wyniki. 
 
 szczegółowy opis techniczny aplikacji (podział na ekrany, funkcjonalności):
+
+Podział na ekrany i funkcjonalności
+
+1	Ekran główny (HOME)
+Opis: Na tym ekranie użytkownik jest powitany i zachęcany do wyboru poziomu trudności quizu.
+Funkcjonalności:
+•	wyświetlenie powitalnego komunikatu: "Welcome to Quiz App"
+•	prezentacja trzech przycisków reprezentujących różne poziomy trudności (easy, medium, hard).
+•	dostęp do górnej zakładki zawierającej "Home", "Quiz", "About Us"
+
+2	Ekran quizu
+Opis: Na tym ekranie użytkownik przechodzi przez quiz, odpowiadając na pytania 
+i wybierając odpowiedzi. Po zakończeniu quizu użytkownik otrzymuje podsumowanie swoich wyników.
+Funkcjonalności:
+•	wyświetlenie pytania i możliwych odpowiedzi
+•	umożliwienie wyboru jednej z odpowiedzi
+•	podświetlenie udzielonej odpowiedzi na czerwono jeśli jest błędna lub zielono jeśli jest poprawna.
+•	zliczanie punktów za poprawne odpowiedzi
+•	pokazanie aktualnego wyniku udzielonych odpowiedzi
+•	odliczanie czasu na odpowiedź (10 sekund na jedno pytanie)
+•	zanim zostanie udzielona odpowiedź widnieje komunikat ‘select an option”.
+•	po wyborze jednej z dostępnych odpowiedzi w miejscu ”select an option” pojawia się aktywny przycisk przejścia do kolejnego pytania ”next question”
+•	po upływie wyznaczonego czasu na odpowiedź aplikacja przechodzi do następnego pytania
+•	po udzieleniu odpowiedzi na ostatnie pytanie aktywuje się przycisk „finish”
+•	dostęp do górnej zakładki zawierającej "Home", "Quiz", "About Us"
+•	wyświetlenie komunikatu "You have finished the quiz!" wraz z wynikiem
+•	prezentacja przycisku "Try Again" umożliwiającego ponowne rozpoczęcie quizu na tym samym poziomie trudności
+
+3	Ekran "O nas"
+Opis: Na tym ekranie użytkownik może uzyskać informacje na temat quizu.
+ 
+Funkcjonalności:
+•	dostęp do górnej zakładki zawierającej "Home", "Quiz", "About Us"
+•	Wyświetlenie informacji o quizie,
+•	Wyświetlenie danych kontaktowych
 
 
 # Vue 3 + Vite
