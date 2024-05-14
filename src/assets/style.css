@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    background-color: #271C36;
+    color: #FFF;
+    margin: 0;
+
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.quiz {
+    background-color: #382a4b;
+    padding: 1rem;
+    width: 100%;
+    max-width: 640px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+
+.form-div {
+    background-color: #2d213f;
+    padding: 30px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.logo-img {
+    width: 200px; /* Szerokość obrazka */
+    margin-left: 20%;
+
+}
+
+.about_us {
+    width: 100%;
+    max-width: 840px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+
+    background-image: url('/images/wallpaper.jpg'); /* Dodaj ścieżkę do pobranego zdjęcia */
+    background-size: cover; /* Dopasowanie zdjęcia do rozmiaru sekcji */
+    background-position: center; /* Wyśrodkowanie zdjęcia */
+    color: white; /* Zmiana koloru tekstu na biały dla lepszej czytelności */
+    padding: 50px; /* Dopełnienie wewnętrzne dla treści */
+}
+
+.about-us-wrapper {
+    margin: 30px;
+    padding: 20px;
+    background-color: #382a4b;
+    border-radius: 10px;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.quiz-info .question {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+.quiz-info .score {
+    color: #FFF;
+    font-size: 1.25rem;
+}
+
+.options {
+    margin-bottom: 1rem;
+}
+
+.option {
+    display: block;
+    padding: 1rem;
+    background-color: #271C36;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #2d213f;
+}
+
+.option.correct {
+    background-color: #2cce7d;
+}
+
+.option.wrong {
+    background-color: #ff5a5f;
+}
+
+.option:last-of-type {
+    margin-bottom: 0;
+}
+
+.option.disabled {
+    opacity: 0.5;
+}
+
+.option input {
+    display: none;
+}
+
+button {
+    appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    padding: 0.5rem 1rem;
+    background-color: #2cce7d;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+button[disabled]:hover {
+    background-color: #2cce7d;
+}
+
+button:hover {
+    background-color: #00755E;
+}
+
+.button-form {
+    display: block;
+    margin: 10px auto auto;
+}
+
+
+button:disabled {
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.time-left {
+    color: #ff5a5f;
+}
+
+.question_num {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+    object-position: center;
+    background-color: #271C36;
+    color: #fff;
+}
+
+.centered-section {
+    display: flex;
+    flex-direction: column; /* Ustawienie kierunku flexbox na kolumnę */
+    justify-content: center; /* Wyrównanie wzdłuż osi X (poziomo) */
+    align-items: center; /* Wyrównanie wzdłuż osi Y (pionowo) */
+    text-align: center; /* Wyrównanie tekstu na środku */
+}
+
+/* Styl dla kontenera przycisków nawigacyjnych */
+.nav-buttons {
+    display: flex; /* Ustawienie kontenera jako flexbox */
+    justify-content: flex-end; /* Przesunięcie przycisków na koniec linii */
+    background-color: #f4f6fd;
+    margin-bottom: 100px;
+
+    position:fixed; /* fixing the position takes it out of html flow - knows
+                   nothing about where to locate itself except by browser
+                   coordinates */
+    left:0;           /* top left corner should start at leftmost spot */
+    top:0;            /* top left corner should start at topmost spot */
+    width:100vw;      /* take up the full browser width */
+    z-index:200;  /* high z index so other content scrolls underneath */
+}
+
+.nav-button {
+    background-color: #f4f6fd; /* Kolor tła przycisku */
+    /*color: #000; !* Kolor tekstu na przycisku *!*/
+    border: none; /* Usunięcie obramowania przycisku */
+    padding: 15px 50px; /* Dopełnienie wewnętrzne przycisku */
+    border-radius: 0px; /* Zakrąglenie rogów przycisku */
+    /*margin-right: 10px; !* Odstęp między przyciskami *!*/
+    text-decoration: none; /* Usunięcie podkreślenia odnośnika */
+}
+
+/* Stylowanie po najechaniu myszą */
+.nav-button:hover {
+    background-color: #d3d1d6; /* Beżowy kolor tła po najechaniu */
+}
+
+/* Styl dla linków nawigacyjnych */
+.nav-button a {
+    color: #000; /* Kolor tekstu na przycisku */
+    text-decoration: none; /* Usunięcie podkreślenia odnośnika */
+}
+
+.centered-section {
+    display: flex;
+    flex-direction: column; /* Ustawienie kierunku flexbox na kolumnę */
+    justify-content: center; /* Wyrównanie wzdłuż osi X (poziomo) */
+    align-items: center; /* Wyrównanie wzdłuż osi Y (pionowo) */
+    text-align: center; /* Wyrównanie tekstu na środku */
+    padding-bottom: 100px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centruje zawartość poziomo */
+  }
+  
+  /* Opcjonalne style dla przycisków */
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 10px 0;
+  }
+  
+  
+  /* New styles for summary section */
+  .summary-container { 
+    width: 100%;
+    margin-top: 20px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #382a4b;
+  }
+  .summary-container h3 {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .summary-container li:hover {
+    transform: translateY(-1px);
+  }
+  
+  .summary-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px; /* Add space between heading and list */
+    background-color: #382a4b;
+  }
+  
+  .summary-item {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Border style */
+    border-radius: 5px; /* Rounded corners for each item */
+    line-height: 1.5; /* Increase line height for better readability */
+    background-color: #271C36;
+  }
+  
+  /* Styl dla elementów po najechaniu */
+  .summary-item:hover {
+    background-color: #302343; /* Nowy kolor tła po najechaniu */
+  }
+  
+  .answer {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .correct-answer {
+    color: rgb(4, 204, 4);
+  }
+  
+  .incorrect-answer {
+    color: rgb(245, 7, 7);
+  }
