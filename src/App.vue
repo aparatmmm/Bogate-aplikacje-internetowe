@@ -1,9 +1,23 @@
-<script setup>
-</script>
-
 <template>
-    <h1>Pusta aplikacja Vue 3</h1>
+  <div id="app">
+    <nav>
+      <ul>
+        <li>
+          <div class="nav-buttons">
+            <button class="nav-button"><router-link to="/">Home</router-link></button>
+            <button class="nav-button"><router-link to="/About_us">About us</router-link></button>
+
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped>
-</style>
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
