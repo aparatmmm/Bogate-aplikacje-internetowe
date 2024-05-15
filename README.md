@@ -16,17 +16,16 @@ Quiz App to interaktywna aplikacja zaprojektowana, aby umożliwić użytkownikom
 ##### 1. Ekran główny (HOME)  
 Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji quizowej. Na środku ekranu znajduje się prosty formularz wyboru parametrów quizu, który jest skontrastowany jasnym tłem, aby przyciągnąć uwagę użytkownika. 
 ##### Formularz zawiera:
-<p> • Nagłówek: "Welcome to Quiz App!"
-<p> • Opcje wyboru:</p>
-        <p>◦ Poziom trudności: rozwijane menu z domyślą opcją „medium”
-        <p>◦ Liczba pytań: rozwijane menu z domyślną opcją "10". 
-        <p>◦ Kategoria: rozwijane menu z domyślną opcją "General Knowledge - I know everything". Wybranie tej opcji, losuje pytania z każdej kategorii. 
-W  celu sprawdzenia się w jednej dziedzinie, możemy wybrać tą, która nas interesuje (np. matematyka).
-        <p>◦ Typ pytań: rozwijane menu z domyślną opcją "Multiple Choice". 
-    <p></p>• Przyciski:
-        <p></p>◦ START: zielony przycisk do rozpoczęcia quizu z wybranymi ustawieniami.
-        <p></p>◦ QUICK QUIZ: zielony przycisk do szybkiego rozpoczęcia quizu bez dodatkowych ustawień.
-    <p></p>• Nawigacja: na górze ekranu znajdują się linki do stron "HOME" i "ABOUT US".
+- Nagłówek: "Welcome to Quiz App!"
+- Opcje wyboru:
+  1. Poziom trudności: rozwijane menu z domyślą opcją „medium”
+  2. Liczba pytań: rozwijane menu z domyślną opcją "10".
+  3. Kategoria: rozwijane menu z domyślną opcją "General Knowledge - I know everything". Wybranie tej opcji, losuje pytania z każdej kategorii. W  celu sprawdzenia się w jednej dziedzinie, możemy wybrać tą, która nas interesuje (np. matematyka).
+  4. Typ pytań: rozwijane menu z domyślną opcją "Multiple Choice". 
+- Przyciski:
+  1. START: zielony przycisk do rozpoczęcia quizu z wybranymi ustawieniami.
+  2. QUICK QUIZ: zielony przycisk do szybkiego rozpoczęcia quizu bez dodatkowych ustawień.
+- Nawigacja: na górze ekranu znajdują się linki do stron "HOME" i "ABOUT US".
     
     
 <br>Funkcjonalności:  
