@@ -38,23 +38,29 @@ Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji qu
    2. Nawigacja: Linki "HOME" i "ABOUT US" umożliwiają przejście do strony głównej aplikacji oraz strony informacyjnej o aplikacji i jej twórcach.
 
 ##### 2. Ekran quizu
-Opis: Na tym ekranie użytkownik przechodzi przez quiz, odpowiadając na pytania   
-i wybierając odpowiedzi. Po zakończeniu quizu użytkownik otrzymuje podsumowanie swoich wyników.  
+Opis: Ekran quizu jest centralnym miejscem interakcji użytkownika z aplikacją quizową. Prezentuje on pytania oraz umożliwia użytkownikowi wybór odpowiedzi. Ekran składa się z sekcji zawierającej pytania oraz opcje odpowiedzi, a także sekcji podsumowującej wyniki quizu po jego zakończeniu.
 
-Funkcjonalności:     
-- wyświetlenie pytania i możliwych odpowiedzi  
--	umożliwienie wyboru jednej z odpowiedzi   
--	podświetlenie udzielonej odpowiedzi na czerwono jeśli jest błędna lub zielono jeśli jest poprawna.  
--	zliczanie punktów za poprawne odpowiedzi  
--	pokazanie aktualnego wyniku udzielonych odpowiedzi  
--	odliczanie czasu na odpowiedź (10 sekund na jedno pytanie)  
--	zanim zostanie udzielona odpowiedź widnieje komunikat ‘select an option”  
--	po wyborze jednej z dostępnych odpowiedzi w miejscu ”select an option” pojawia się aktywny przycisk przejścia do kolejnego pytania ”next question”  
--	po upływie wyznaczonego czasu na odpowiedź aplikacja przechodzi do następnego pytania  
--	po udzieleniu odpowiedzi na ostatnie pytanie aktywuje się przycisk „finish”  
--	dostęp do górnej zakładki zawierającej "Home", "Quiz", "About Us"  
--	wyświetlenie komunikatu "You have finished the quiz!" wraz z wynikiem  
--	prezentacja przycisku "Try Again" umożliwiającego ponowne rozpoczęcie quizu na tym samym poziomie trudności  
+Funkcjonalność:
+- Prezentacja Pytania:
+  1. Użytkownik widzi aktualnie wyświetlane pytanie w górnej części ekranu.
+  2. Pytanie zawiera treść oraz cztery możliwe odpowiedzi do wyboru.
+- Wybór Odpowiedzi:
+  1. Użytkownik może wybrać jedną z czterech dostępnych odpowiedzi poprzez kliknięcie na nią.
+  2. Wybrana odpowiedź jest zapisywana i użytkownik przechodzi do kolejnego pytania.
+- Licznik Czasu:
+  1. Po prawej stronie ekranu znajduje się licznik czasu, który pokazuje pozostały czas na odpowiedź na aktualne pytanie.
+  2. Gdy czas się skończy, użytkownik automatycznie przechodzi do następnego pytania.
+- Podsumowanie Wyników:
+  1. Po zakończeniu wszystkich pytań użytkownik zostaje przeniesiony do ekranu podsumowania.
+  2. Ekran podsumowania pokazuje wynik użytkownika, tj. ile pytań zostało poprawnie odpowiedzianych.
+  3.  Pod każdą odpowiedzią użytkownik widzi swoje wybrane odpowiedzi oraz prawidłowe odpowiedzi.
+- Nawigacja:
+  1. Na górze ekranu znajdują się przyciski nawigacyjne "HOME" i "ABOUT US", umożliwiające użytkownikowi powrót do strony głównej lub przejście do sekcji informacyjnej o aplikacji.
+- Interfejs Użytkownika:
+  1. Ekran ma prosty i czytelny design z ciemnym tłem i białymi tekstami, co ułatwia koncentrację na pytaniach.
+  2. Opcje odpowiedzi są wyraźnie odseparowane, co ułatwia ich wybór i zapobiega przypadkowym kliknięciom.
+- Informacje Zwrotne:
+  1. W sekcji podsumowania użytkownik widzi informacje zwrotne na temat każdej odpowiedzi, co umożliwia naukę na błędach i poprawę wiedzy w przyszłości.
 
 ##### 3. Ekran "O nas"
 Opis: Na tym ekranie użytkownik może uzyskać informacje na temat quizu.  
