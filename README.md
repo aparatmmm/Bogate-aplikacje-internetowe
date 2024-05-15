@@ -14,8 +14,20 @@ Quiz App to interaktywna aplikacja quiz’owa, która umożliwia użytkownikom s
 #### Podział na ekrany i funkcjonalności  
 
 ##### 1. Ekran główny (HOME)  
-Opis: Na tym ekranie użytkownik jest powitany i zachęcany do wyboru poziomu trudności quizu.  
-
+Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji quizowej. Na środku ekranu znajduje się prosty formularz wyboru parametrów quizu, który jest skontrastowany jasnym tłem, aby przyciągnąć uwagę użytkownika. 
+Formularz zawiera:
+    • Nagłówek: "Welcome to Quiz App!"
+    • Opcje wyboru:
+        ◦ Poziom trudności: rozwijane menu z domyślą opcją „medium”
+        ◦ Liczba pytań: rozwijane menu z domyślną opcją "10". 
+        ◦ Kategoria: rozwijane menu z domyślną opcją "General Knowledge - I know everything". Wybranie tej opcji, losuje pytania z każdej kategorii. 
+W  celu sprawdzenia się w jednej dziedzinie, możemy wybrać tą, która nas interesuje (np. matematyka).
+        ◦ Typ pytań: rozwijane menu z domyślną opcją "Multiple Choice". 
+    • Przyciski:
+        ◦ START: zielony przycisk do rozpoczęcia quizu z wybranymi ustawieniami.
+        ◦ QUICK QUIZ: zielony przycisk do szybkiego rozpoczęcia quizu bez dodatkowych ustawień.
+    • Nawigacja: na górze ekranu znajdują się linki do stron "HOME" i "ABOUT US".
+    
 Funkcjonalności:  
 - wyświetlenie powitalnego komunikatu: "Welcome to Quiz App"  
 -	prezentacja trzech przycisków reprezentujących różne poziomy trudności (easy, medium, hard).  
