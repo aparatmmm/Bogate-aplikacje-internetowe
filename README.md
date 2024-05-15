@@ -15,7 +15,7 @@ Quiz App to interaktywna aplikacja zaprojektowana, aby umożliwić użytkownikom
 
 ##### 1. Ekran główny (HOME)  
 Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji quizowej. Na środku ekranu znajduje się prosty formularz wyboru parametrów quizu, który jest skontrastowany jasnym tłem, aby przyciągnąć uwagę użytkownika. 
-Formularz zawiera:
+## Formularz zawiera:
 • Nagłówek: "Welcome to Quiz App!"
 • Opcje wyboru:
         ◦ Poziom trudności: rozwijane menu z domyślą opcją „medium”
