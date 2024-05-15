@@ -13,7 +13,7 @@ Quiz App to interaktywna aplikacja zaprojektowana, aby umożliwić użytkownikom
 
 #### Podział na ekrany i funkcjonalności  
 
-##### 1. Ekran główny (HOME)  
+#### 1. Ekran główny (HOME)  
 Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji quizowej. Na środku ekranu znajduje się prosty formularz wyboru parametrów quizu, który jest skontrastowany jasnym tłem, aby przyciągnąć uwagę użytkownika. 
 ##### Formularz zawiera:
 - Nagłówek: "Welcome to Quiz App!"
@@ -37,7 +37,7 @@ Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji qu
    1. Przyciski START i QUICK QUIZ umożliwiają rozpoczęcie quizu. "START" pozwala na uruchomienie quizu z wybranymi ustawieniami, natomiast "QUICK QUIZ" pozwala na szybkie uruchomienie quizu bez dodatkowych ustawień.
    2. Nawigacja: Linki "HOME" i "ABOUT US" umożliwiają przejście do strony głównej aplikacji oraz strony informacyjnej o aplikacji i jej twórcach.
 
-##### 2. Ekran quizu
+#### 2. Ekran quizu
 Opis: Ekran quizu jest centralnym miejscem interakcji użytkownika z aplikacją quizową. Prezentuje on pytania oraz umożliwia użytkownikowi wybór odpowiedzi. Ekran składa się z sekcji zawierającej pytania oraz opcje odpowiedzi, a także sekcji podsumowującej wyniki quizu po jego zakończeniu.
 
 Funkcjonalność:
@@ -62,7 +62,7 @@ Funkcjonalność:
 - Informacje Zwrotne:
   1. W sekcji podsumowania użytkownik widzi informacje zwrotne na temat każdej odpowiedzi, co umożliwia naukę na błędach i poprawę wiedzy w przyszłości.
 
-##### 3. Ekran "O nas"
+#### 3. Ekran "O nas"
 Opis: Na tym ekranie użytkownik może uzyskać informacje na temat quizu.  
 
 Funkcjonalności:  
