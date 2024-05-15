@@ -29,9 +29,13 @@ Opis: Strona, którą widzimy na obrazku, to interfejs użytkownika aplikacji qu
     
     
 <br>Funkcjonalności:  
-- wyświetlenie powitalnego komunikatu: "Welcome to Quiz App"  
--	prezentacja trzech przycisków reprezentujących różne poziomy trudności (easy, medium, hard).  
--	dostęp do górnej zakładki zawierającej "Home", "Quiz", "About Us"
+- Wybór poziomu trudności: Użytkownik może wybrać poziom trudności quizu (np. łatwy, średni, trudny) z rozwijanego menu.
+- Wybór liczby pytań: Użytkownik może określić, ile pytań chce mieć w quizie (np. 5, 10, 15), korzystając z rozwijanego menu.
+- Wybór kategorii: Użytkownik może wybrać kategorię quizu (np. wiedza ogólna, historia, nauka) z rozwijanego menu.
+- Wybór typu pytań: Użytkownik może wybrać typ pytań, które preferuje (np. wielokrotnego wyboru, prawda/fałsz), korzystając z rozwijanego menu.
+- Rozpoczęcie quizu:
+   1. Przyciski START i QUICK QUIZ umożliwiają rozpoczęcie quizu. "START" pozwala na uruchomienie quizu z wybranymi ustawieniami, natomiast "QUICK QUIZ" pozwala na szybkie uruchomienie quizu bez dodatkowych ustawień.
+   2. Nawigacja: Linki "HOME" i "ABOUT US" umożliwiają przejście do strony głównej aplikacji oraz strony informacyjnej o aplikacji i jej twórcach.
 
 ##### 2. Ekran quizu
 Opis: Na tym ekranie użytkownik przechodzi przez quiz, odpowiadając na pytania   
