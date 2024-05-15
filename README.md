@@ -7,7 +7,7 @@ Projekt interfejsu aplikacji jest dostępny pod poniższym linkiem:
 <https://www.figma.com/file/9ZDnUkQ6Z55irzcHzttqMW/Bogate-aplikacje-internetowe?type=whiteboard&t=wrPM7kSvcHPssQVZ-6>
 
 ### Opis aplikacji:  
-Quiz App to interaktywna aplikacja quiz’owa, która umożliwia użytkownikom sprawdzenie i rozwinięcie swojej wiedzy z dziedziny IT. Aplikacja składa się z trzech ekranów. Ekranu informacyjnego (ABOUT US), ekranu głównego (HOME) oraz ekranu quizu (QUIZ). Quiz app korzysta z zewnętrznego API w celu dostępu do bazy pytań. Aplikacja losuje pytania w zależności od wyboru poziomu trudności, przetwarza odpowiedzi użytkownika w założonych ramach czasowych oraz prezentuje wyniki. 
+Quiz App to interaktywna aplikacja zaprojektowana, aby umożliwić użytkownikom tworzenie i rozwiązywanie quizów dostosowanych do ich preferencji. Interfejs użytkownika jest prosty i intuicyjny, co ułatwia nawigację i konfigurację quizów. Aplikacja składa się z trzech ekranów. Ekranu informacyjnego (ABOUT US), ekranu głównego (HOME) oraz ekranu quizu (QUIZ). Quiz app korzysta z zewnętrznego API w celu dostępu do bazy pytań. Aplikacja losuje pytania w zależności od wyboru poziomu trudności, przetwarza odpowiedzi użytkownika w założonych ramach czasowych oraz prezentuje wyniki.
 
 ### Szczegółowy opis techniczny aplikacji (podział na ekrany, funkcjonalności):  
 
